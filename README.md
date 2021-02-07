@@ -29,4 +29,4 @@ Este directorio contiene todo el código de base que se entrega para el funciona
 
 Estudiante 1: Daniel Osorio
 
-Estudiante 2: Tomás Ángel
+Estudiante 2: Tomas Angel
