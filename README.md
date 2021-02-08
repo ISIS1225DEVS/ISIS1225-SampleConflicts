@@ -2,7 +2,7 @@ Estudiante 1: Ernesto José Duarte Mantilla
 
 Estudiante 2: Ana Sofía Padilla Daza
 
-AAAAAAAAAAAAAAAAA
+
 
 
 #ISIS1225 - Estructura de un proyecto
