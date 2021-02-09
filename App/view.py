@@ -43,7 +43,7 @@ def printMenu():
     print("1- Cargar Libros")
     print("2- Cargar Tags")
     # TO-DO: Modificación de Est-1 en el Lab 2
-    print("3-Cargar Book-Tags")
+    print("3-Cargar Book Tags")
     print("0- Salir")
 
 
@@ -65,6 +65,8 @@ def loadBookTags():
     Cargar los Tags de libros
     """
     # TO-DO: Modificación de Est-1 en el Lab 2
+    return controller.loadBooks("GoodReads/book_tags-small.csv")
+    
 
 
 """
@@ -79,10 +81,12 @@ while True:
         print('Total de libros cargados: ' + str(lt.size(books)))
 
         # TO-DO: Modificación de Est-1 en el Lab 2
+        print('Primer libro cargado' + str(lt.firstElement(books)))
 
 
         # TO-DO: Modificación de Est-2 en el Lab 2
-        print('Último libro cargado: ' + str(lt.lastElement(books)))
+        print('Último libro cargado' + str(lt.lastElement(books)))
+
     elif int(inputs[0]) == 2:
         print("Cargando información de tags....")
         tags = loadTags()
@@ -93,7 +97,6 @@ while True:
         print("Cargando información de Book-Tags...")
         booktags = loadBooksTags()
         print('Total de Book-Tags cargados: ' + str(lt.size(booktags)))
-        
 
     else:
         sys.exit(0)
