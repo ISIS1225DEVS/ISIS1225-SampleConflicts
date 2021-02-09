@@ -1,3 +1,10 @@
+Estudiante 1: Ernesto José Duarte Mantilla
+
+Estudiante 2: Ana Sofía Padilla Daza
+
+
+
+
 #ISIS1225 - Estructura de un proyecto
 
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
