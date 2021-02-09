@@ -64,7 +64,7 @@ def loadBookTags():
     Cargar los Tags de libros
     """
     # TO-DO: Modificación de Est-1 en el Lab 2
-    
+
 
 
 """
@@ -83,13 +83,14 @@ while True:
 
         # TO-DO: Modificación de Est-2 en el Lab 2
         print('Último libro cargado: ' + str(lt.lastElement(books)))
-        
+
 
     elif int(inputs[0]) == 2:
         print("Cargando información de tags....")
         tags = loadTags()
         print('Total de tags cargados: ' + str(lt.size(tags)))
     elif True:
+        # TO-DO: Modificación de Est-2 en el Lab 2
         elif int(inputs[0]) == 3:
             print("Cargando información de Book-Tags...")
             booktags = loadBooksTags()
