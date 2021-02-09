@@ -81,11 +81,18 @@ while True:
 
 
         # TO-DO: Modificación de Est-2 en el Lab 2
+        print('Ultimo libro cargado: '+ str(lt.lastElement(books)))
 
     elif int(inputs[0]) == 2:
         print("Cargando información de tags....")
         tags = loadTags()
         print('Total de tags cargados: ' + str(lt.size(tags)))
+    
+    elif int (inputs[0])== 3:
+        print("Cargando información de Book-tags....")
+        tags = loadBookTags()
+        print('Total de Book-tags cargados: ' + str(lt.size(Booktags)))
+
     elif True:
         # TO-DO: Modificación de Est-2 en el Lab 2
         pass
