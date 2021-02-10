@@ -52,6 +52,13 @@ def loadTags(filename):
     return tags
 
 
-def loadBooksTags(catalog):
 
-    pass
+
+    
+
+def loadBooksTags(filename):
+
+    # TO-DO: Modificación de Est-1 y Est-2 en el Lab 2
+    booktagsfile = cf.data_dir + filename
+    return model.addBooksTags(booktagsfile)
+
