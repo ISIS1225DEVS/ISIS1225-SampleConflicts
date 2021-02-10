@@ -42,7 +42,7 @@ def loadBooks(filename):
 
 def loadTags(filename):
     """
-    Carga todos los tags del archivo y los agrega a la lista de ta
+    Carga todos los tags del archivo y los agrega a la lista de 
     """
     tagsfile = cf.data_dir + filename
     input_file = csv.DictReader(open(tagsfile, encoding='utf-8'))
