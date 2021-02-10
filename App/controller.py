@@ -42,7 +42,7 @@ def loadBooks(filename):
 
 def loadTags(filename):
     """
-    Carga todos los tags del archivo y los agrega a la lista de tags
+    Carga todos los tags del archivo y los agrega a la lista de 
     """
     tagsfile = cf.data_dir + filename
     input_file = csv.DictReader(open(tagsfile, encoding='utf-8'))
@@ -52,6 +52,7 @@ def loadTags(filename):
     return tags
 
 
-def loadBooksTags(catalog):
-    # TO-DO: Modificación de Est-1 y Est-2 en el Lab 2
-    pass
+def loadBooksTags(filename):
+    
+    booktagsfile = cf.data_dir + filename
+    return model.addBooksTags(booktagsfile)
