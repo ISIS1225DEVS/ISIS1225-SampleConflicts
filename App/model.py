@@ -33,7 +33,6 @@ assert cf
 En el modelo, se crean las estructuras de datos, es decir,
 las variables donde se van a guardar los datos leidos de los
 archivos CSV.
-
 El modelo debe ser el unico sitio donde se modifican y manipulan
 los datos.
 """
@@ -43,9 +42,7 @@ def addBooks(booksfile):
     """
     Para guardar los libros provenientes del archivo CSV
     vamos a crear una lista, en donde quedarán todos los datos.
-
     No es importante entender como funciona esta lista por ahora.
-
     La funcion newList crea una lista de muchas formas.  Una de ellas
     es leyendo todo lo que encuentre en el archivo indicado por filename.
     Cada linea del archivo quedará en una posicion de la lista.
