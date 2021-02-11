@@ -67,11 +67,12 @@ def addTag(taglist, tag):
 def createTagList():
     """
     Esta funcion crea una lista vacia.  Esta lista se utilizara
-    para ir guardando la informacion en el archivo de tags.
+    para ir guardando la informacion en el archivo de tag.
     """
     taglist = lt.newList(datastructure='SINGLE_LINKED')
     return taglist
 
-def addBookTags():
-    # TO-DO: Modificación de Est-1 y Est-2 en el Lab 2
-    pass
+def addBooksTags(booktagsfile):
+    bts = lt.newList(datastructure='SINGLE_LINKED',
+    filename=booktagsfile)
+    return bts
