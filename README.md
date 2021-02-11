@@ -27,8 +27,8 @@ Este directorio contiene todo el código de base que se entrega para el funciona
 
     |-- Utils: Funciones auxiliares para el funcionamiento de los TADs y estructuras de datos
 
-    Estudiante 1 : Santiago Vela
-    Estudiante 2 : Jairo Nicolás Gómez
+    Estudiante 1 : Santiago Vela s.vela@uniandes.edu.co
+    Estudiante 2 : Jairo Nicolás Gómez jn.gomezm1@uniandes.edu.co
     
 
 
