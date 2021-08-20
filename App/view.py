@@ -23,6 +23,7 @@
  * Dario Correal - Version inicial
  """
 
+from App.controller import loadBooksTags
 import config as cf
 import sys
 import controller
@@ -65,7 +66,7 @@ def loadBookTags():
     Cargar los Tags de libros
     """
     # TODO: Modificación de Est-1 en el Lab 2
-    pass
+    print ('El ultimo libro cargado: '+ str(lt.lastElement(books)))
 
 
 """
@@ -80,7 +81,10 @@ while True:
         print('Total de libros cargados: ' + str(lt.size(books)))
 
         # TODO: Modificación de Est-1 en el Lab 2
-
+    else int(inputs[0])==3:
+        print ('Cargando información de Book-Tags...')
+        booktags=loadBooksTags()
+        print ('Total de Book-Tags cargados: '+str(lt.size(booktags)))
 
         # TODO: Modificación de Est-2 en el Lab 2
 
