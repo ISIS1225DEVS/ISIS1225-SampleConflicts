@@ -1,5 +1,8 @@
 #ISIS1225 - Estructura de un proyecto
 
+Estudiante 1: Daniela Camacho (202110974) d.camachom@uniandes.educo
+Estudiante 2: Ana Sofia Villa (201923361) as.villa@uniandes.edu.co
+
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
 
 Esta organización es una sugerencia que puede ser adaptada a  las necesidades y gustos de cada persona.
