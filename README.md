@@ -30,3 +30,4 @@ Este directorio contiene todo el código de base que se entrega para el funciona
 Estudiante 1: Sergio Rincón.
 Estudiante 2: Luis Tejón.
 
+linea escrita para generar conflictos
