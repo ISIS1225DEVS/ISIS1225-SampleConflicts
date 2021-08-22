@@ -31,4 +31,4 @@ Estudiante 1: Sergio Rincón.
 Estudiante 2: Luis Tejón.
 
 linea escrita para generar conflictos
-esta linea debería generar conflictos
+
