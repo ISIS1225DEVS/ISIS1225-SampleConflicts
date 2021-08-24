@@ -64,6 +64,9 @@ return booktags
 def addTag(taglist, tag):
 
     sadsadsad
+
+
+    xdxdxd
     """
     Para procesar el archivo de tags vamos a usar de otra forma la lista.
     En este caso, agregaremos cada linea del archivo a la lista, en lugar
