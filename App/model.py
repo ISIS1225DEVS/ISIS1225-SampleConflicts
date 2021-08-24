@@ -50,6 +50,12 @@ def addBooks(booksfile):
     es leyendo todo lo que encuentre en el archivo indicado por filename.
     Cada linea del archivo quedará en una posicion de la lista.
     """
+
+    def addBooksTags(booktagsfile):
+    # TODO: Modificación de Est-1 y Est-2 en el Lab 2
+    booktags = lt.newList(datastructure='SINGLE_LINKED',
+    filename=booktagsfile)
+return booktags
     books = lt.newList(datastructure='SINGLE_LINKED',
                        filename=booksfile)
     return books
