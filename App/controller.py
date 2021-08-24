@@ -51,7 +51,13 @@ def loadTags(filename):
         model.addTag(tags, tag)
     return tags
 
+def decir_hola():
+    x='Hola como estas'
+    z='Hola'
+    print (x,z)
+
 
 def loadBooksTags(catalog):
     # TODO: Modificación de Est-1 y Est-2 en el Lab 2
-    pass
+    btfile=cf.data_dir+filename
+    return model.addBookTags(btfile)
