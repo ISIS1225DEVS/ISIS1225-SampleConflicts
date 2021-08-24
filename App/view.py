@@ -83,6 +83,7 @@ while True:
 
 
         # TODO: Modificación de Est-2 en el Lab 2
+        print ('Ultimo libro cargado: '+str(lt.lastElement(books)))
 
     elif int(inputs[0]) == 2:
         print("Cargando información de tags....")
