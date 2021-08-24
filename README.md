@@ -1,6 +1,7 @@
 #ISIS1225 - Estructura de un proyecto
 
 Estudiante 1: Jerónimo Vargas
+
 Estudiante 2: Maicol Antonio
 
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
