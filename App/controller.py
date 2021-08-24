@@ -53,7 +53,8 @@ def loadTags(filename):
 
 def decir_hola():
     x='Hola como estas'
-    print (x)
+    z='Hola'
+    print (x,z)
 
 
 def loadBooksTags(catalog):
