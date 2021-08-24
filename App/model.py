@@ -60,7 +60,7 @@ return booktags
                        filename=booksfile)
     return books
 
-#Texto randooooooooooooom
+#Texto randooooooooooooom   
 def addTag(taglist, tag):
     """
     Para procesar el archivo de tags vamos a usar de otra forma la lista.
