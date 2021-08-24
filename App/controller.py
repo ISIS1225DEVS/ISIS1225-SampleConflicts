@@ -51,7 +51,7 @@ def loadTags(filename):
         model.addTag(tags, tag)
     return tags
 
-
+    Cambios= "xdxdxd"
 def loadBooksTags(catalog):
     # TODO: Modificación de Est-1 y Est-2 en el Lab 2
     pass
