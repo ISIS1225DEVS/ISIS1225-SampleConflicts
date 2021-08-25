@@ -42,7 +42,6 @@ def printMenu():
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
-    # TODO: Modificación de Est-1 en el Lab 2
     print("0- Salir")
 
 
@@ -64,7 +63,7 @@ def loadBookTags():
     """
     Cargar los Tags de libros
     """
-    # TODO: Modificación de Est-1 en el Lab 2
+
     pass
 
 
@@ -79,11 +78,8 @@ while True:
         books = loadBooks()
         print('Total de libros cargados: ' + str(lt.size(books)))
 
-        # TODO: Modificación de Est-1 en el Lab 2
         print('Último libro cargado: '+ str(lt.lastElement(books)))
 
-    
-        # TODO: Modificación de Est-2 en el Lab 2
 
     elif int(inputs[0]) == 2:
         print("Cargando información de tags....")
@@ -95,10 +91,6 @@ while True:
         booktags= loadBookTags()
         print('Total de Book-tags cargados: ' + str(lt.size(booktags)))
 
-        
-    elif True:
-        # TODO: Modificación de Est-2 en el Lab 2
-        pass
 
     else:
         sys.exit(0)
