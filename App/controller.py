@@ -52,7 +52,8 @@ def loadTags(filename):
     return tags
 
 
-def loadBooksTags(filename): # ahí decía catalog pero en la guía dice filename, qué hago :( #
+def loadBooksTags(filename):
     # TODO: Modificación de Est-1 y Est-2 en el Lab 2
-    btfile= cf.data_dir + filename
-    return model.addBooksTags(btfile)
+    booktagsfile = cf.data_dir + filename
+    return model.addBooksTags(booktagsfile)
+
