@@ -1,5 +1,9 @@
 #ISIS1225 - Estructura de un proyecto
 
+Estudiante 1: Wyo Hann Chu Mendez
+
+Estudiante 2: Thomas Gomez Serpa
+
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
 
 Esta organización es una sugerencia que puede ser adaptada a  las necesidades y gustos de cada persona.
