@@ -1,5 +1,8 @@
 #ISIS1225 - Estructura de un proyecto
 
+* Estudiante_1: Cristian Camilo Cortes - cc.cortesm1@uniandes.edu.co - 202011908
+* Estudiante_2: Ángel Colonia Avendaño - a.colonia@uniandes.edu.co - 202115154
+
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
 
 Esta organización es una sugerencia que puede ser adaptada a  las necesidades y gustos de cada persona.
