@@ -52,6 +52,7 @@ def printMenu():
     # TODO: Modificaciones de Est-1 en el Lab 2, agregar opcion 3
     print("3- Cargar Tags de Libros")
     print("0- Salir")
+    "s"
 
 
 def loadBooks(control):
