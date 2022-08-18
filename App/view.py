@@ -94,7 +94,7 @@ def lastBook(control):
     Devuelve el último libro cargado
     """
     pass
-
+    print 
 
 # Se crea el controlador asociado a la vista
 control = newController()
