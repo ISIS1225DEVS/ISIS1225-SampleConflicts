@@ -33,7 +33,7 @@ assert cf
 La vista se encarga de la interacción con el usuario
 Presenta el menu de opciones  y  por cada seleccion
 se hace la solicitud al controlador para ejecutar la
-operación solicitada
+operación solicitadas
 """
 
 
@@ -50,7 +50,7 @@ def printMenu():
     print("1- Cargar Libros")
     print("2- Cargar Tags")
     # TODO: Modificaciones de Est-1 en el Lab 2, agregar opcion 3
-
+    print("3- Cargar Tags de Libros")
     print("0- Salir")
     "s"
 
