@@ -50,7 +50,7 @@ def printMenu():
     print("1- Cargar Libros")
     print("2- Cargar Tags")
     # TODO: Modificaciones de Est-1 en el Lab 2, agregar opcion 3
-    print("3- Cargar los Tags de Libros")
+
     print("0- Salir")
 
 
@@ -94,7 +94,7 @@ def lastBook(control):
     Devuelve el último libro cargado
     """
     pass
-
+    print 
 
 # Se crea el controlador asociado a la vista
 control = newController()
@@ -123,6 +123,9 @@ while True:
 
     elif int(inputs[0]) == 3:
         # TODO: Modificaciones de Est-3 en el Lab 2
+        print("Cargando información de Book-Tags...")
+        booktags = loadBooksTags(control)
+        print("Total de Book-Tags cargados: " + str(booktags))
         pass
 
     else:

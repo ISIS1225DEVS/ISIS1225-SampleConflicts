@@ -110,31 +110,36 @@ def addBookTag(catalog, booktag):
     Esta funcion agrega un elemento a lista de booktags.
     """
     # TODO: Modificaciones de Est-1 y Est-2, Est-3 en el Lab 2
-    pass
+    lt.addLast(catalog["book_tags"], booktag)
+    return catalog
 
 
 # Funciones de consulta
 
 def bookSize(catalog):
     # TODO Modificaciones de Est-3 en el Lab 2
-    pass
+    return lt.size(catalog["books"])
+
 
 
 def tagSize(catalog):
     # TODO Modificaciones de Est-3 en el Lab 2
-    pass
+    return lt.size(catalog["tags"])
+
 
 
 def bookTagSize(catalog):
     # TODO Modificaciones de Est-3 en el Lab 2
-    pass
+    pareturn lt.size(catalog["book_tags"])
+
 
 
 def firstBook(catalog):
     # TODO Modificaciones de Est-3 en el Lab 2
-    pass
+    return lt.firstElement(catalog["books"])
 
 
 def lastBook(catalog):
     # TODO Modificaciones de Est-3 en el Lab 2
-    pass
+    return lt.lastElement(catalog["books"])
+
