@@ -33,7 +33,7 @@ assert cf
 La vista se encarga de la interacción con el usuario
 Presenta el menu de opciones  y  por cada seleccion
 se hace la solicitud al controlador para ejecutar la
-operación solicitadas
+operación solicitada
 """
 
 
@@ -50,9 +50,8 @@ def printMenu():
     print("1- Cargar Libros")
     print("2- Cargar Tags")
     # TODO: Modificaciones de Est-1 en el Lab 2, agregar opcion 3
-    print("3- Cargar Tags de Libros")
+    print("3- Cargar Book-Tags!!!...")
     print("0- Salir")
-    "s"
 
 
 def loadBooks(control):
@@ -77,9 +76,7 @@ def loadBooksTags(control):
     """
     Cargar los Tags de libros
     """
-    booktags = controller.loadBooksTags(control,"GoodReads/book_tags-small.csv")
-
-    return booktags
+    # TODO: Modificaciones de Est-1 en el Lab 2
     pass
 
 
@@ -87,8 +84,7 @@ def firstBook(control):
     """
     Devuelve el primer libro del catalogo
     """
-    first = controller.firstBook(control)
-    return first
+    # TODO: Modificaciones de Est-1 en el Lab 2
     pass
 
 
@@ -115,9 +111,7 @@ while True:
         print("Total de libros cargados: " + str(books))
 
         # TODO: Modificaciones de Est-1 en el Lab 2
-        
-        first = firstBook(control)
-        print("Primer libro cargado:\n" + str(first) + "\n")
+        first = None
 
         # TODO: Modificaciones de Est-2 en el Lab 2
         last = None
