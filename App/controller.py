@@ -73,6 +73,11 @@ def loadTags(control, filename):
     return model.tagSize(catalog)
 
 
+def loadBooksTags(catalog):
+    btfile = cf.data_dir + filename
+    return model.addBooksTags(btfile)
+  
+
 def loadBooksTags(control, filename):
     """
     Carga los tags de los libros del archivo
@@ -95,3 +100,4 @@ def lastBook(control):
     """
     # TODO: Modificación Est-3 en el Lab 2
     pass
+

@@ -134,7 +134,12 @@ def firstBook(catalog):
     # TODO Modificaciones de Est-3 en el Lab 2
     pass
 
-
+def addBookTags():
+    bts = lt.newList(datastructure='SINGLE_LINKED',
+    filename=booktagsfile)
+    return bts
+=======
 def lastBook(catalog):
     # TODO Modificaciones de Est-3 en el Lab 2
     pass
+
