@@ -75,10 +75,17 @@ def loadTags(control, filename):
 
 def loadBooksTags(control, filename):
     """
-    Carga los tags de los libros del archivo
+    Cargo los tags de los libros del archivo
     """
-    # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
-    pass
+    # TODO: Mods de Est-1 y Est-2, Est-3 en el Lab 2
+    booktagfile = os.path.join(cf.data_dir, filename)
+    catalog = control["model"]
+    input_file = csv.DictReader(open(booktagfile, encoding="utf-8"))
+    catalog = model.createBookTagList(catalog)
+    for booktag in input_file:
+        model.addBookTag(catalog, booktag)
+    return model.bookTagSize(catalog)
+
 
 
 def firstBook(control):
@@ -86,7 +93,9 @@ def firstBook(control):
     Devuelve el primer libro del catalogo
     """
     # TODO: Mods Est-3 en el Lab 2
-    pass
+    return model.firstBook(control["model"])
+
+    
 
 
 def lastBook(control):
@@ -94,4 +103,5 @@ def lastBook(control):
     Devuelve el ultimo libro del catalogo
     """
     # TODO: Mods Est-3 en el Lab 2
-    pass
+    return model.lastBook(control["model"])
+    
